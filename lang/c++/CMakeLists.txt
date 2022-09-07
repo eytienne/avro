@@ -211,7 +211,7 @@ install (TARGETS avrocpp avrocpp_s
 
 install (TARGETS avrogencpp RUNTIME DESTINATION bin)
 
-install (DIRECTORY api/ DESTINATION include/avro
+install (DIRECTORY ./ DESTINATION include/avro
     FILES_MATCHING PATTERN *.hh)
 
 if (NOT CMAKE_BUILD_TYPE)

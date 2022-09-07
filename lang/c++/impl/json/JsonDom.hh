@@ -26,7 +26,7 @@
 #include <string>
 #include <vector>
 
-#include "Config.hh"
+#include "../../api/Config.hh"
 #include "boost/any.hpp"
 
 namespace avro {
